@@ -1,0 +1,14 @@
+LP problems are about finding the most optimal solution
+for the objective function, under certain constraints like inequalities
+
+Referring to the inequalities I have, I recognize that I need
+3 basic variables to get the most optimized objective function.
+
+Ultimately, I need to pivot on all possible basic variables,
+until I identify which variables are needed to be pivoted.
+
+When looking at the inequalities, we see that all X >= 0.
+
+So, if any of my (row, col) is negative, then it's infeasible value.
+
+Among all the feasible values, the highest one is the correct answer.
